@@ -16,8 +16,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution on Frontendmentor.io](https://your-solution-url.com)
-- Live Site URL: [Live Website URL](https://your-live-site-url.com)
+- Solution URL: [Solution on Frontendmentor.io](https://www.frontendmentor.io/solutions/sign-up-component-B1g82wtI9)
+- Live Site URL: [Live Website URL](https://ambrolla.io/Sign-up-form-component/)
 
 ### Built with
 
