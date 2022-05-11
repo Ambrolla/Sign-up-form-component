@@ -25,7 +25,7 @@ h1{
   text-align: center;
 }
 
-.ad-div{
+.try-div{
   text-align: center;
   background-color: hsl(248, 32%, 49%);
   border-radius: 10px;
@@ -83,12 +83,12 @@ h1{
   margin: 5px 5px;
 }
 
-.ad-text {
+.try-text {
   padding: 15px 0;
   font-weight: 300;
 }
 
-.ad-text-bold{
+.try-text-bold{
   font-weight: bold;
 }
 
@@ -140,10 +140,10 @@ h1{
   .right-div{
     margin: 0 10px 80px 15px;
   }
-  .ad-div{
+  .try-div{
     margin-bottom: 40px;
   }
-  .ad-text{
+  .try-text{
     margin: 0 80px;
   }
   p{
