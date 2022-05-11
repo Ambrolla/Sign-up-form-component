@@ -1,0 +1,156 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+  body{
+    background-image: 
+    linear-gradient(
+      rgba(255, 0, 0, 0.45), 
+      rgba(255, 0, 0, 0.45)
+    ),
+    url(images/bg-intro-desktop.png);
+    color: white;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+.left-div{
+  text-align: left;
+}
+
+h1{
+  font-size: 50px;
+}
+
+.right-div{
+  text-align: center;
+}
+
+.ad-div{
+  text-align: center;
+  background-color: hsl(248, 32%, 49%);
+  border-radius: 10px;
+  width: 350px;
+  box-shadow: inset;
+  margin-bottom: 10px;
+}
+
+.form-div {
+  background-color: white;
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: black;
+  padding: 30px 0;
+}
+
+.form-input {
+  padding: 15px 0 15px 20px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: none;
+  border-color: #14141426;
+  width: 300px;
+  text-align: left;
+  font-weight: 600;
+  outline: none;
+}
+
+.form-input:focus{
+  border: 3px solid #14141459;
+}
+
+.submit-button {
+  padding-right: 210px;
+  background-color: hsl(154, 59%, 51%);
+  color: white;
+  width: 320px;
+  border-radius: 10px;
+  padding: 15px 0 15px 0;
+  text-align: center;
+}
+
+.submit-button:hover{
+  background-color: hsl(154, 80%, 62%);
+}
+
+.terms-a{
+  color: hsl(0, 100%, 74%) ;
+  font-weight: bold;
+}
+
+.rules-paragraph {
+  color: hsl(246, 25%, 77%);
+  font-size: 9px;
+  margin: 5px 5px;
+}
+
+.ad-text {
+  padding: 15px 0;
+  font-weight: 300;
+}
+
+.ad-text-bold{
+  font-weight: bold;
+}
+
+/* Error Messages: */
+
+.error{
+  color: red;
+  font-size: 13px;
+  text-align: right;
+  margin: -10px 30px 0 0;
+  padding-bottom: 20px;
+}
+
+.failure-icon{
+  display: inline-block;
+  position: absolute;
+  margin-top: 7px;
+  margin-left: -40px;
+  padding: 10px;
+}
+
+
+/* MEDIA Screen */
+
+@media screen and (min-width: 480px) {
+  .main-card {
+    margin: 100px;
+    padding: 10px;
+  }
+  .left-div {
+   margin: 400px 750px 0 200px;
+    width: 350px;
+  }
+  .right-div {
+    margin: -400px 200px 200px 900px;
+  }
+  h1{
+    width: 450px;
+  }
+  .left-div-paragraph{
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .left-div{
+    margin: 0 10px 80px 15px;
+  }
+  .right-div{
+    margin: 0 10px 80px 15px;
+  }
+  .ad-div{
+    margin-bottom: 40px;
+  }
+  .ad-text{
+    margin: 0 80px;
+  }
+  p{
+    text-align: center;
+  }
+  h1{
+    text-align: center;
+    font-size: 35px;
+  }
+}
